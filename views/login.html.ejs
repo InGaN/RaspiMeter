@@ -1,0 +1,25 @@
+<%- include head.ejs %>
+<script type="text/javascript" src="js/login.js"></script>
+</head>
+	<body>
+	<%- include nav.ejs %>
+		<header>
+		</header>
+		<div class="pageCenterer">
+			<article class="loginBox">
+				<h3>PLEASE LOG IN:</h3>
+				<form>
+					Username:<br>
+					<input type="text" name="username">
+					<br>
+					Password:<br>
+					<input type="password" name="password">
+					<br>
+					<input type="submit" value="Submit" id="getAPIKey">
+				</form>
+			</article>
+			<br/>
+		</div>
+		<%- include footer.ejs %>
+	</body>
+</html>

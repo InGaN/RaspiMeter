@@ -1,0 +1,43 @@
+<%- include head.ejs %>
+</head>
+<body>
+<%- include nav.ejs %>
+
+<div id="highchartsContainer">
+	Here comes the main content
+</div>
+<div class="pageCenterer">
+	<br/>
+	<label for="dropdownInterval">Interval: </label>
+	<select id="dropdownInterval" name="dropdownInterval">
+		<option></option>
+		<option>hours</option>
+		<option>days</option>
+		<option>months</option>
+		<option>years</option>
+	</select>
+	<br/>
+	<br/>
+	<hr/>
+</div>
+<div class="pageCenterer">
+	<form>
+		<input type="text" id="txtOutput" size ="30"/>
+	</form>
+	<br/>
+	<br/>
+</div>
+<div class="pageCenterer">
+	<table class="prettyTable">
+		<thead>
+			<tr>		 
+				<th>Timestamp</th>
+			</tr>
+		</thead>
+		<tbody>					
+		</tbody>
+	</table>
+</div>
+<%- include footer.ejs %>
+</body>
+</html>
